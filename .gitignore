@@ -43,3 +43,7 @@ Thumbs.db
 
 # Notebooks auxiliares locales
 /notebooks/extra/
+
+# Documentación: incluir únicamente los PDF
+/docs/*
+!/docs/*.pdf
