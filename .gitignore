@@ -2,15 +2,7 @@
 .venv/
 .tmp/
 __pycache__/
-*.py[cod]
 .ipynb_checkpoints/
-.env
-.env.*
-*.part
-*.tmp
-*.duckdb.wal
-.DS_Store
-Thumbs.db
 
 # Datos generados y archivos originales voluminosos
 /data/*
@@ -48,4 +40,3 @@ Thumbs.db
 /docs/*
 !/docs/*.pdf
 
-/.gitignore
