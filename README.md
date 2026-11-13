@@ -1,4 +1,4 @@
-# Proyecto Comercio exterior de Colombia - HS6 y Machine Learning
+# Proyecto brechas potenciales de exportación de Colombia - Modelo gravitacional estructural y Machine Learning
 
 ### **Título:** Identificación del comercio potencial y diversificación exportadora para productos No minero-energéticos de Colombia.  
 
