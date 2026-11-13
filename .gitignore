@@ -1,20 +1,45 @@
-# Entorno virtual
+# Entorno local y temporales
 .venv/
-
-# Archivos temporales de Python
+.tmp/
 __pycache__/
 *.py[cod]
-
-# Archivos temporales de Jupyter
 .ipynb_checkpoints/
-
-# Variables de entorno y credenciales
 .env
 .env.*
-
-# Datos originales
-raw/
-
-# Archivos temporales del sistema
+*.part
+*.tmp
+*.duckdb.wal
 .DS_Store
 Thumbs.db
+
+# Datos generados y archivos originales voluminosos
+/data/*
+!/data/raw/
+/data/raw/**
+!/data/raw/**/
+
+# Instantáneas pequeñas necesarias para reproducir los resultados
+!/data/raw/baci/country_codes_V202601.csv
+!/data/raw/baci/product_codes_HS17_V202601.csv
+!/data/raw/variables/complementos_finales/cbs_data.json
+!/data/raw/variables/complementos_finales/cbs_territorios.json
+!/data/raw/variables/complementos_finales/cbs_topics.json
+!/data/raw/variables/complementos_finales/taiwan_cuentas_nacionales.xml
+!/data/raw/variables/complementos_finales/un_m49.html
+!/data/raw/variables/oficiales/oecd_lists.json
+!/data/raw/variables/oficiales/wto_news_vars.js
+!/data/raw/variables/world_bank/countries.json
+!/data/raw/variables/world_bank/NY.GDP.MKTP.KD_2017_2024.json
+!/data/raw/variables_ml/complementos/contexto_dane_hs6_anio.parquet
+!/data/raw/variables_ml/complementos/usa_va_industrial_2017_2024.csv
+!/data/raw/variables_ml/precios_trm/CMO-Historical-Data-Annual.xlsx
+!/data/raw/variables_ml/precios_trm/trm_sfc_2017_2024.json
+!/data/raw/variables_ml/world_bank/BX.KLT.DINV.WD.GD.ZS_2017_2024.json
+!/data/raw/variables_ml/world_bank/EG.ELC.ACCS.ZS_2017_2024.json
+!/data/raw/variables_ml/world_bank/GOV_WGI_PV.EST_2017_2024.json
+!/data/raw/variables_ml/world_bank/NV.IND.TOTL.KD_2017_2024.json
+!/data/raw/variables_ml/world_bank/NY.GDP.MKTP.PP.KD_2017_2024.json
+!/data/raw/variables_ml/world_bank/SP.POP.TOTL_2017_2024.json
+
+# Notebooks auxiliares locales
+/notebooks/extra/
