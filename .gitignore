@@ -47,3 +47,5 @@ Thumbs.db
 # Documentación: incluir únicamente los PDF
 /docs/*
 !/docs/*.pdf
+
+/.gitignore
